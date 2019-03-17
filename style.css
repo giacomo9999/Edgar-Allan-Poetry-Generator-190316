@@ -1,0 +1,10 @@
+body {
+  background-image: url("images/EAP_bgd.jpg");
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
