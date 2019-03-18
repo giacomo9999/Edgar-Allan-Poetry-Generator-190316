@@ -145,16 +145,7 @@ function writeStanza(stanzaLength, obj) {
 // N.B.: textArray is defined in textSource.js and imported by index.html
 var kVObj = createKVObject(textArray);
 
-// writeLine (kVObj);
-
-console.log("");
-
-console.log("");
-writeStanza(4, kVObj);
-console.log("");
-
 let newPoem = document.querySelector(".poem_text");
 let newTitle = document.querySelector(".poetry_title");
 newTitle.innerHTML = writeTitle(kVObj);
-console.log(newPoem);
 newPoem.innerHTML = writeStanza(4, kVObj) + "<br/>" + writeStanza(4, kVObj);
