@@ -7,6 +7,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+  opacity: 0.85;
 }
 
 .poetry_title {
@@ -17,8 +18,8 @@ body {
 }
 
 .poetry_box {
-  opacity: 0.9;
-  background-color: rgb(241, 235, 226);
+  opacity: 0.80;
+  background-color: rgb(255,255,255);
   text-align: left;
   font-family: "Cormorant Garamond", serif;
   font-size: 1.25em;
