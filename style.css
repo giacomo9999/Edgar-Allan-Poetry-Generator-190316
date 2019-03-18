@@ -12,7 +12,7 @@ body {
 
 .poetry_title {
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-weight: 700 !important;
   text-align: center;
 }
@@ -22,7 +22,8 @@ body {
   background-color: rgb(255,255,255);
   text-align: left;
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.25em;
+  font-size: 1.35em;
+  font-style: italic;
   font-weight: 500;
   width: 26%;
   margin-left: auto;
