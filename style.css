@@ -6,5 +6,25 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 30%;
+}
+
+.poetry_title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5em;
+  font-weight: 700 !important;
+  text-align: center;
+}
+
+.poetry_box {
+  opacity: 0.9;
+  background-color: rgb(241, 235, 226);
+  text-align: left;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.25em;
+  font-weight: 500;
+  width: 26%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px 50px 50px;
 }
