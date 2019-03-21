@@ -104,7 +104,29 @@ function writeLine(obj) {
     "my",
     "an",
     "tis",
-    "that"
+    "that",
+    "its",
+    "let",
+    "most",
+    "newly",
+    "while",
+    "yet",
+    "out",
+    "he",
+    "thus",
+    "but",
+    "than",
+    "till",
+    "ah",
+    "if",
+    "gave",
+    "so",
+    "or",
+    "is",
+    "she",
+    "who",
+    "mid",
+    "from"
   ];
   // console.log ("Line Length: ",loopEnd);
   for (var loop = 0; loop <= loopEnd; loop++) {
