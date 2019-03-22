@@ -126,7 +126,9 @@ function writeLine(obj) {
     "she",
     "who",
     "mid",
-    "from"
+    "from",
+    "has",
+    "when"
   ];
   // console.log ("Line Length: ",loopEnd);
   for (var loop = 0; loop <= loopEnd; loop++) {
