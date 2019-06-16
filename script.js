@@ -1,34 +1,22 @@
 function createKVObject(wordArr) {
   // create an object of "word : next word" key-value pairs
   const obj = {};
-  for (let j = 0; j < wordArr.length; j++) {
+  for (let j = 0; j < wordArr.length - 1; j++) {
     if (obj[wordArr[j]]) {
-      obj[wordArr[j]].nextWord.push(wordArr[j + 1]);
+      obj[wordArr[j]].push(wordArr[j + 1]);
     } else {
-      obj[wordArr[j]] = {
-        nextWord: [],
-        lastSyllable: extractLastSyllable(wordArr[j])
-      };
-      obj[wordArr[j]].nextWord.push(wordArr[j + 1]);
+      obj[wordArr[j]] = [wordArr[j + 1]];
     }
   }
-  console.log(obj);
+
   return obj;
 }
 
 function writeTitle(obj) {
-  // Object.keys creates array of all property names
   let keys = Object.keys(obj);
-  console.log(keys);
-
   let line = "";
-
-  // randNum selects random property name from array created by Object.keys
   let randNum = Math.floor(Math.random() * keys.length);
-
-  // randNum2 eventually selects a random "next" word from KVObject[randNum] array
   let randNum2 = 0;
-
   let randAdj = Math.floor(Math.random() * 3 + 3);
   let nextWord = keys[randNum];
   let revNextWord = "";
@@ -185,5 +173,3 @@ let newPoem = document.querySelector(".poem_text");
 let newTitle = document.querySelector(".poetry_title");
 newTitle.innerHTML = writeTitle(kVObj);
 newPoem.innerHTML = writeStanza(4, kVObj) + "<br/>" + writeStanza(4, kVObj);
-
-// naɪt

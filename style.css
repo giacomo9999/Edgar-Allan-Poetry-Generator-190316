@@ -9,8 +9,7 @@ body {
 button {
   display: block;
   font-family: "Cormorant Garamond", serif;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto;
   opacity: 0.85;
   width: 25%;
   height: 40px;
@@ -62,8 +61,13 @@ button {
   font-size: 1.35em;
   font-style: italic;
   font-weight: 500;
-  width: 35%;
+  width: 25%;
   margin-left: auto;
   margin-right: auto;
   padding: 25px 40px 40px;
+}
+
+.spacer {
+  width: 100px;
+  height: 30px;
 }

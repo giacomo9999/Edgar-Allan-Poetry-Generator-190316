@@ -1,0 +1,70 @@
+/* Tablet */
+@media (max-width: 1400px) {
+  .logo {
+    width: 35%;
+  }
+
+  .poetry_title {
+    font-size: 1.2em;
+  }
+
+  .poetry_box {
+    font-size: 1.2em;
+    width: 400px;
+    padding: 3% 10% 3% 10%;
+  }
+  button {
+    width: 275px;
+    height: 25px;
+    font-size: 0.8em;
+    border-radius: 20px;
+  }
+}
+
+/* "Landscape" mobile phone */
+@media (max-width: 1000px) {
+  .logo {
+    width: 50%;
+  }
+
+  .poetry_title {
+    font-size: 1.2em;
+  }
+
+  .poetry_box {
+    font-size: 1.2em;
+    width: 500px;
+    padding: 20px 40px 40px;
+  }
+
+  button {
+    width: 275px;
+    height: 25px;
+    font-size: 0.8em;
+    border-radius: 20px;
+  }
+}
+
+/* "Portrait" mobile phone */
+@media (max-width: 570px) {
+  .logo {
+    width: 75%;
+  }
+
+  .poetry_title {
+    font-size: 1.2em;
+  }
+
+  .poetry_box {
+    font-size: 1.1em;
+    width: 75%;
+    padding: 20px 20px 30px 20px;
+  }
+
+  button {
+    width: 275px;
+    height: 25px;
+    font-size: 0.8em;
+    border-radius: 20px;
+  }
+}
